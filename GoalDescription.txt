@@ -1,0 +1,9 @@
+waypoint_generator + rviz_plugins（GoalTool）+ grid_path_searcher
+
+waypoint_generator => RViz 點擊 → publish waypoint (nav_msgs/Path or Pose)
+roscpp
+tf
+nav_msgs
+
+rviz_plugins（互動入口）
+自訂 RViz Tool（GoalTool / PoseTool）→ 用滑鼠點 → 發 topic
